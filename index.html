@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="./grid.css" />
+  </head>
+  <body>
+    <script type="module">
+      import MqOverlay from "./mq-overlay.js";
+      const overlay = new MqOverlay({
+        'screen-xs': 360,
+        'screen-sm': 768,
+        'screen-md': 1024,
+        'screen-lg': 1200,
+        'screen-xl': 1440
+      }, true);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "mq-overlay",
+  "version": "1.0.6",
+  "description": "Overlay showing your media queries for development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tflx/mq-overlay.git"
+  },
+  "keywords": [
+    "css",
+    "media queries",
+    "development",
+    "responsive",
+    "mq",
+    "debug",
+    "overlay"
+  ],
+  "author": "Torben Larsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tflx/mq-overlay/issues"
+  },
+  "homepage": "https://github.com/tflx/mq-overlay#readme"
+}
