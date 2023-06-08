@@ -1,14 +1,7 @@
 class MqOverlay {
-  constructor(sizes, autoHide) {
-    const defaultSizes = {
-      'screen-xs': 360,
-      'screen-sm': 768,
-      'screen-md': 1024,
-      'screen-lg': 1200,
-      'screen-xl': 1440,
-    };
-
-    this.sizes = sizes || defaultSizes;
+  constructor({sizes, autoHide}) {
+    if (!sizes) throw new Error("Missing sizes object");
+    this.sizes = sizes;
     this.autoHide = autoHide || false;
     
     
