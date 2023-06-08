@@ -1,21 +1,21 @@
-# Grid Overlay
+# MQ Overlay
 
-Show an overlay on top of your website to debug positioning elements in your css-grid.
+Overlay showing your media queries for development.
 
 ## Install the package
 
 ```bash
-npm install grid-debug-overlay --save-dev
+npm install mq-overlay --save-dev
 ```
 …or
 ```bash
-yarn add grid-debug-overlay --dev
+yarn add mq-overlay --dev
 ```
 
 ## Import and initialize it:
 
 ```js
-import GridOverlay from 'grid-debug-overlay';
+import GridOverlay from 'mq-overlay';
 new GridOverlay();
 ```
 
@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === 'development') {
 ## Example
 
 ```js
-import GridOverlay from 'grid-debug-overlay';
+import GridOverlay from 'mq-overlay';
 new GridOverlay({
   gridClass: 'my-grid',
   columnProp: '--my-grid-columns'
