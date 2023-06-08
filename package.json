@@ -1,6 +1,6 @@
 {
   "name": "mq-overlay",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "description": "Overlay showing your media queries for development",
   "main": "index.js",
   "scripts": {
